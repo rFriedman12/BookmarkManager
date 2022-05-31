@@ -12,7 +12,7 @@ function Home() {
         }
 
         getPopularUrls();
-    });
+    }, []);
     return <div className='row mt-5'>
         <h1>Welcome to the React Bookmark Application!</h1>
         <h3>Top 5 most bookmarked links</h3>
